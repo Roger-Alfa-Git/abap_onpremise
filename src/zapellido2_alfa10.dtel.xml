@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAPELLIDO2_ALFA10</ROLLNAME>
+    <DOMNAME>CHAR30</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Segundo Apellido</DDTEXT>
+     <REPTEXT>Segundo Apellido</REPTEXT>
+     <SCRTEXT_S>Seg Ape</SCRTEXT_S>
+     <SCRTEXT_M>Segundo Apellido</SCRTEXT_M>
+     <SCRTEXT_L>Segundo Apellido</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZAYUD_ALFA10</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <AGGTYPE>V</AGGTYPE>
+    <APPLCLASS>HV40</APPLCLASS>
+    <ROOTTAB>TVFK</ROOTTAB>
+    <VIEWCLASS>H</VIEWCLASS>
+    <VIEWGRANT>R</VIEWGRANT>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZAYUD_ALFA10</VIEWNAME>
+     <TABNAME>TVFK</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>TVFK</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>TVFK</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>T000</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>FKART</VIEWFIELD>
+     <TABNAME>TVFK</TABNAME>
+     <FIELDNAME>FKART</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ERNAM</VIEWFIELD>
+     <TABNAME>TVFK</TABNAME>
+     <FIELDNAME>ERNAM</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Vista de ayuda para la tabla TVFK</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
