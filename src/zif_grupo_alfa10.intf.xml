@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_GRUPO_ALFA10</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Ejercicios del tema 7 bloque 2 por ALFA10</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AVISAR_CANAL_DISTRIBUICION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Aviso del canal de distribucion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEST_MERCANCIA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destinatario de mercancías</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOCUMENTOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Interface Sociedad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GRUPO_CLIENTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Grupo de clientes</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AVISAR_CANAL_DISTRIBUICION</CMPNAME>
+     <SCONAME>CANAL_DIST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Canal de distribución</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DEST_MERCANCIA</CMPNAME>
+     <SCONAME>DEST_MERCANCIA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destinatario de mercancías</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

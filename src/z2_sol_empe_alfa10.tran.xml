@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>Z2_SOL_EMPE_ALFA10</TCODE>
+    <PGMNA>Z_VIDEOS9_ALFA10</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>kA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>Z2_SOL_EMPE_ALFA10</TCODE>
+   </TSTCC>
+   <TSTCP>
+    <TCODE>Z2_SOL_EMPE_ALFA10</TCODE>
+    <PARAM>ZVAR1</PARAM>
+   </TSTCP>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>S</SPRSL>
+     <TTEXT>Solicitud de alta empleado</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
