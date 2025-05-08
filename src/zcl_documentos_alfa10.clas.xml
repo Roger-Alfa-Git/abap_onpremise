@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DOCUMENTOS_ALFA10</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase Documentos</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ANADIR_CLAVE_OPERACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añade clave de operacion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLAVE_OPERACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave de operación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONT_MODIF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constante de modificación de valoración</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREAR_AVISOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea Aviso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOCUMENTO_CADUCADO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documento Caducado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GENERAR_AVISOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Generar Avisos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PLAN_CUENTAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Get plan cuentas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NUM_DOC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignación de núm.pos.: documento material-documento compras</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PLAN_CUENTAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Plan de cuentas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_PLAN_CUENTAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Set plan cuentas</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ANADIR_CLAVE_OPERACION</CMPNAME>
+     <SCONAME>CLAVE_OPERACION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave de operación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>NUM_DOC</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Asignación de núm.pos.: documento material-documento compras</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DOCUMENTO_CADUCADO</CMPNAME>
+     <SCONAME>FECHA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERAR_AVISOS</CMPNAME>
+     <SCONAME>DEUDOR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de cliente</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PLAN_CUENTAS</CMPNAME>
+     <SCONAME>PLAN_CUENTAS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Plan de cuentas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PLAN_CUENTAS</CMPNAME>
+     <SCONAME>PLAN_CUENTAS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Plan de cuentas</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

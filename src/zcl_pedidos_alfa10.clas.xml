@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PEDIDOS_ALFA10</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Practicas del tema 9 bloque 2</DESCRIPT>
+    <CATEGORY>10</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ERDAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de creación del registro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERNAM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre del responsable que ha añadido el objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERZET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Hora de entrada</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERDAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee el atributo ERDAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERNAM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee el atributo ERNAM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERZET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee el atributo ERZET</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VBELN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee el atributo VBELN</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ERDAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fija el atributo ERDAT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ERNAM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fija el atributo ERNAM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_ERZET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fija el atributo ERZET</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VBELN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documento de ventas</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERDAT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERDAT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERNAM</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERNAM</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERZET</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERZET</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VBELN</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VBELN</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERDAT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERDAT</CMPNAME>
+     <SCONAME>I_ERDAT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERNAM</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERNAM</CMPNAME>
+     <SCONAME>I_ERNAM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERZET</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ERZET</CMPNAME>
+     <SCONAME>I_ERZET</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor de atributo</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

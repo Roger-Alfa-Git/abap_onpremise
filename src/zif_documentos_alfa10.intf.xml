@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_DOCUMENTOS_ALFA10</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Interface Sociedad</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ACTIVATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Activation ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEUDOR_DESCONOCIDO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>El deudor es desconocido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DOC_VENTAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documento de ventas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RANGO_PO_DOC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Rango para número de posición del documento comercial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DOC_VENTAS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Establece valor al atirbuto DOC_VENTAS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SIN_USUARIO_RESP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documentos de ventas sin usuario responsable</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DEUDOR_DESCONOCIDO</CMPNAME>
+     <SCONAME>DEUDOR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de cliente</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DOC_VENTAS</CMPNAME>
+     <SCONAME>DOC_VENTAS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documento de ventas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIN_USUARIO_RESP</CMPNAME>
+     <SCONAME>DOC_VENTAS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Documento de ventas</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;MEANING&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La interfaz se ha creado para definir un modulo de estructura por los</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objetos que implementan la interfaz.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Se utiliza para el proyecto PO5643/PO56788 - Gestion de personal</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Las clases que implementan la interfaz están obligadas a implementar los</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>métodos de instancia SET_DOC_VENTAS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En el paquete ZABAP_OO_ existen clases que han implementado la interfaz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El departamento de Desarrollo LOGALISAP le puede proporcionar la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documentación funcional.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </I18N_LINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCB_PERSIST_ESTUD_ALFA10</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Agente base Descripcion de los estudiantes</DESCRIPT>
+    <CATEGORY>11</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea objeto permanente nuevo con clave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea objeto transitorio con clave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CURRENT_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto específicos de clase actuales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_PERSISTENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borra objeto permanente con clave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PERSISTENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Trae objeto permanente con clave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TRANSIENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determina objeto transitorio con clave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_EXTRACT_IDENTIFIER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Extrae clave empresarial de datos BD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_GET_ATTRIBUTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee atributos permanentes de objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE_KEY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee datos objeto de BD identificados mediante clv.empres.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_MERGE_IDENTIFIER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Añade datos BD clv.empres.a</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Graba datos de objeto en BD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_SERIALIZE_BKEY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Serializa clave empresarial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fija atributos permanentes de un objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Verifica y fija atributos permanentes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PM_CREATE_REPRESENTANT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea objeto de capa y entrada de gestión nuevos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PM_DELETE_PERSISTENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borra objeto permanente de BD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PM_LOAD_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Carga y fija atributos permanentes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SPECIAL_BKEY_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Específ.clase: Tabla búsqueda, claves empresariales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto específicos de clase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_BUSINESS_KEY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_BUSINESS_KEY_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Referencia de objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_DB_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de línea: Datos de objeto permanentes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_DB_DATA_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Datos de objeto permanentes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_DB_DELETE_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Identificadores p.borrar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_OBJECT_REF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de un objeto gestionado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_OBJECT_REF_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Referencia de objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_OID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de identificador de objeto genérico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_OID_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Identificador de objeto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_SPECIAL_BKEY_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Tab.búsq., claves empres.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de línea: Datos objeto específ.clase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO_TAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla: Datos objeto específ.clase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYP_TYPE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tp.identificador tipos</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_EXISTING</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <SCONAME>I_ESTUDIANTE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto permanente creado nuevo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_EXISTING</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <SCONAME>I_ESTUDIANTE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto transitorio creado nuevo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_PERSISTENT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_EXISTING</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_PERSISTENT</CMPNAME>
+     <SCONAME>I_ESTUDIANTE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSISTENT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSISTENT</CMPNAME>
+     <SCONAME>I_ESTUDIANTE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSISTENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto permanente</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TRANSIENT</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TRANSIENT</CMPNAME>
+     <SCONAME>I_ESTUDIANTE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TRANSIENT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto transitorio</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_EXTRACT_IDENTIFIER</CMPNAME>
+     <SCONAME>E_BUSINESS_KEY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial extraída de datos de BD</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_EXTRACT_IDENTIFIER</CMPNAME>
+     <SCONAME>I_DB_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto leídos de BD</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_GET_ATTRIBUTES</CMPNAME>
+     <SCONAME>E_OBJECT_DATA_TAB</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto leídos</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_GET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_OBJECT_REF_TAB</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lista de objetos afectados</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE_KEY</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY_TAB</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial para los datos a cargar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE_KEY</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos objeto leídos de BD</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_MERGE_IDENTIFIER</CMPNAME>
+     <SCONAME>C_DB_DATA_TAB</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto que se deben mezclar en identificadores</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_MERGE_IDENTIFIER</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY_TAB</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lista de claves empresariales</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <SCONAME>I_DELETES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave de los datos que se tienen que borrar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <SCONAME>I_INSERTS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos a crear de nuevo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <SCONAME>I_UPDATES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos a modificar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SERIALIZE_BKEY</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clv.empres.</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SERIALIZE_BKEY</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clv.empres.como string</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_OBJECT_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de objeto a fijar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_OBJECT_REF</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto afectado</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_ID_PROVIDED</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Con qué identificadores se ha cargado y verificado</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_OBJECT_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos cargados de BD</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CREATE_REPRESENTANT</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_CREATE_REPRESENTANT</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto de capa creado nuevo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_LOAD_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>CX_OS_OBJECT_NOT_FOUND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Excepción de servicios de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PM_LOAD_AND_SET_ATTRIBUTES</CMPNAME>
+     <SCONAME>I_BUSINESS_KEY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clave empresarial</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
